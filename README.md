@@ -3,6 +3,8 @@
 A web-based memory game built with HTML, CSS, and JavaScript, designed to test and improve your short-term memory. 
 Watch the buttons flash in sequence and try to repeat the pattern. The sequence gets longer with each correct round. How far can you go?
 
+![screenshot](https://github.com/user-attachments/assets/0178e5cb-1f48-482e-a696-5f3870b46d0d)
+
 ## How to Play
 
 1. Click the Start Game button.
