@@ -2,7 +2,7 @@ const buttons = document.querySelectorAll('.circle-btn');
 const startButton = document.getElementById('start-btn');
 const scoreDisplay = document.getElementById('score');
 
-const colors = ['one','two','three','four','five', 'six', 'seven', 'eight', 'nine', 'ten', 'eleven', 'twelve'];
+const colors = ['one','two','three','four','five', 'six', 'seven', 'eight', 'nine', 'ten', 'eleven', 'twelve','thirteen','fourteen','fifteen','sixteen',];
 let gameSequence = [];
 let userSequence = [];
 let score = 0; //save score 
@@ -88,7 +88,7 @@ function checkUserSequence() {
 
 function endGame() {
     gameActive = false;
-    alert('Game Over! Your final score is ' + score);
+    alert('High Score:  ' + score);
 }
  
 
