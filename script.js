@@ -5,7 +5,7 @@ const scoreDisplay = document.getElementById('score');
 const colors = ['one','two','three','four','five', 'six', 'seven', 'eight', 'nine', 'ten', 'eleven', 'twelve'];
 let gameSequence = [];
 let userSequence = [];
-let score = 0;
+let score = 0; //save score 
 let gameActive = false;
 
 
