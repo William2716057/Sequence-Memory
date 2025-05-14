@@ -32,7 +32,7 @@ function nextRound() {
     scoreUpdate();
 
     //store and add sequences
-    const randomButton = buttons[math.floor(math.random() * buttons.length)];
+    const randomButton = buttons[Math.floor(Math.random() * buttons.length)];
     gameSequence.push(randomButton);
 
     showSequence();
@@ -41,7 +41,7 @@ function nextRound() {
 function showSequence() {
     let index = 0;
     const interval = setInterval(() => {
-        flashColor(gameSequence[index]);
+        flashButton(gameSequence[index]);
         index++;
         if (index === gameSequence.length) {
             clearInterval(interval);
@@ -50,8 +50,8 @@ function showSequence() {
 }
 
 //flash the buttons
-function flashButton(button) {
-    const btn = document.getElementById(button);
+function flashButton(buttonId) {
+    const btn = document.getElementById(buttonId);
     btn.style.opacity = 1;
     setTimeout(() => {
         btn.style.opacity = 0.7;
@@ -93,7 +93,8 @@ function endGame() {
 
 //Event listeners for buttons
 buttons.forEach(button => {
-    button.addEventListener('click', handleUser);
+    const btn = document.getElementById(button);
+    //button.addEventListener('click', handleUser);
 });
 
 startButton.addEventListener('click', startGame);
