@@ -22,7 +22,7 @@ body {
     margin-bottom: 20px;
 }
 
-.rowOne {
+.circles {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -38,19 +38,19 @@ body {
     opacity: 0.7;
 }
 
-#one {
+#red {
     background-color: red;
 }
 
-#two {
+#blue {
     background-color: blue;
 }
 
-#three {
+#green {
     background-color: green;
 }
 
-#four {
+#yellow {
     background-color: yellow;
 }
 
