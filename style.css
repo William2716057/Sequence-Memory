@@ -22,7 +22,7 @@ body {
     margin-bottom: 20px;
 }
 
-.buttons {
+.rowOne {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
