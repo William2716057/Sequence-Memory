@@ -38,20 +38,36 @@ body {
     opacity: 0.7;
 }
 
-#red {
-    background-color: red;
-}
-
-#blue {
+#one {
     background-color: blue;
 }
 
-#green {
-    background-color: green;
+#two {
+    background-color: blue;
 }
 
-#yellow {
-    background-color: yellow;
+#three {
+    background-color: blue;
+}
+
+#four {
+    background-color: blue;
+}
+
+#five {
+    background-color: blue;
+}
+
+#six {
+    background-color: blue;
+}
+
+#seven {
+    background-color: blue;
+}
+
+#eight {
+    background-color: blue;
 }
 
 button:active {

@@ -2,7 +2,7 @@ const buttons = document.querySelectorAll('.circle-btn');
 const startButton = document.getElementById('start-btn');
 const scoreDisplay = document.getElementById('score');
 
-const colors = ['red', 'blue', 'green', 'yellow'];
+const colors = ['one','two','three','four','five', 'six', 'seven', 'eight'];
 let gameSequence = [];
 let userSequence = [];
 let score = 0;
@@ -90,7 +90,7 @@ function endGame() {
     gameActive = false;
     alert('Game Over! Your final score is ' + score);
 }
-
+ 
 
 buttons.forEach(button => {
     button.addEventListener('click', handleUserClick);
