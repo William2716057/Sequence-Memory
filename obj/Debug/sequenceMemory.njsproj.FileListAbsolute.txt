@@ -1,0 +1,3 @@
+C:\Users\wills\Desktop\Shortcuts\Files\Github\sequenceMemory\sequenceMemory\obj\Debug\sequenceMemory.njsproj.AssemblyReference.cache
+C:\Users\wills\Desktop\Shortcuts\Files\Github\sequenceMemory\sequenceMemory\obj\Debug\sequenceMemory.njsproj.CoreCompileInputs.cache
+C:\Users\wills\Desktop\Shortcuts\Files\Github\sequenceMemory\sequenceMemory\bin\Microsoft.NodejsTools.WebRole.dll

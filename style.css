@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.game-container {
+    text-align: center;
+}
+
+#score {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.color-btn {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: none;
+    opacity: 0.7;
+}
+
+#one {
+    background-color: red;
+}
+
+#two {
+    background-color: blue;
+}
+
+#three {
+    background-color: green;
+}
+
+#four {
+    background-color: yellow;
+}
+
+button:active {
+    opacity: 1;
+}
+
+#start-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+}
