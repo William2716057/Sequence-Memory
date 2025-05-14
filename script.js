@@ -2,7 +2,7 @@ const buttons = document.querySelectorAll('.circle-btn');
 const startButton = document.getElementById('start-btn');
 const scoreDisplay = document.getElementById('score');
 
-const colors = ['one','two','three','four','five', 'six', 'seven', 'eight'];
+const colors = ['one','two','three','four','five', 'six', 'seven', 'eight', 'nine', 'ten', 'eleven', 'twelve'];
 let gameSequence = [];
 let userSequence = [];
 let score = 0;
